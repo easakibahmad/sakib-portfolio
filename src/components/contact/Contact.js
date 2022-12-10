@@ -5,7 +5,7 @@ import { useState } from "react";
 const Contact = () => {
   const [toSend, setToSend] = useState({
     from_name: "",
-    to_name: "",
+    to_name: "Sakib Ahmad",
     message: "",
     reply_to: "",
   });
@@ -26,39 +26,46 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <form onSubmit={onSubmit}>
+    <div>
+      <h1 className="text-2xl text-center mt-12">Get In Touch</h1>
+      <form
+        className="grid grid-cols-1 w-96 mx-auto gap-6 my-12"
+        onSubmit={onSubmit}
+      >
         <input
           type="text"
           name="from_name"
-          placeholder="from name"
+          placeholder="your name"
           value={toSend.from_name}
           onChange={handleChange}
+          className="input input-bordered input-success w-full"
         />
-        <input
-          type="text"
-          name="to_name"
-          placeholder="to name"
-          value={toSend.to_name}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          name="message"
-          placeholder="Your message"
-          value={toSend.message}
-          onChange={handleChange}
-        />
+
         <input
           type="text"
           name="reply_to"
-          placeholder="Your email"
+          placeholder="your email"
           value={toSend.reply_to}
           onChange={handleChange}
+          className="input input-bordered input-success w-full"
         />
-        <button type="submit">Submit</button>
+
+        <textarea
+          type="text"
+          name="message"
+          placeholder="your message"
+          value={toSend.message}
+          onChange={handleChange}
+          className="textarea textarea-success"
+        />
+        <button
+          className="btn btn-outline btn-warning w-48 mx-auto"
+          type="submit"
+        >
+          Send Message
+        </button>
       </form>
-    </>
+    </div>
   );
 };
 
