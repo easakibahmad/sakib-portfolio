@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <footer
       data-theme="black"
-      class="footer footer-center p-10 bg-primary text-white rounded font-bold"
+      className="footer footer-center p-10 bg-primary text-white rounded font-bold"
     >
       <div>
         <p>Copyright © 2022 - All right reserved by SAKIB AHMAD</p>
       </div>
       <div>
-        <div class="grid grid-flow-col gap-4">
+        <div className="grid grid-flow-col gap-4">
           <a
             className="p-3 bg-white rounded-full"
             href="https://github.com/easakibahmad"
