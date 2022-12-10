@@ -67,7 +67,7 @@ const Contact = () => {
           required
         />
         <button
-          className="text-xl rounded-xl btn btn-outline btn-warning w-48 mx-auto"
+          className=" uppercase rounded-xl btn btn-outline btn-warning w-48 mx-auto"
           type="submit"
         >
           Send Message

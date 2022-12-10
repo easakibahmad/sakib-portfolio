@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div
       data-theme="black"
-      className="navbar flex justify-center bg-primary text-primary-content"
+      className="navbar flex justify-center bg-primary text-primary-content sticky top-0"
     >
       <Link to="/" className="btn btn-ghost normal-case text-xl">
         Home
