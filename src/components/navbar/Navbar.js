@@ -5,6 +5,7 @@ import { FcMenu } from "react-icons/fc";
 const Navbar = () => {
   return (
     <div
+      style={{ fontFamily: "Montserrat" }}
       data-theme="black"
       className="navbar flex justify-center  bg-primary text-primary-content"
     >

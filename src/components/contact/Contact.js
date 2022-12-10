@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" data-theme="black">
+    <div style={{ fontFamily: "Montserrat" }} id="contact" data-theme="black">
       <h1 className="text-2xl text-center pt-12">Get In Touch</h1>
       <form
         className=" grid grid-cols-1 w-96 mx-auto gap-6 py-12"

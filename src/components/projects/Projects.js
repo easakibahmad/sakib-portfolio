@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      style={{ backgroundImage: `url(${project})` }}
+      style={{ backgroundImage: `url(${project})`, fontFamily: "Montserrat" }}
       data-theme="black"
       className="p-12 px-12"
     >

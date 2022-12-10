@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      style={{ backgroundImage: `url(${about})` }}
+      style={{ backgroundImage: `url(${about})`, fontFamily: "Montserrat" }}
       data-theme="black"
       className="hero p-12 px-12"
     >

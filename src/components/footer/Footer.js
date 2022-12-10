@@ -4,8 +4,9 @@ import { BsFacebook, BsLinkedin, BsYoutube, BsGithub } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer
+      style={{ fontFamily: "Montserrat" }}
       data-theme="black"
-      className="footer footer-center p-10 bg-primary text-white rounded font-bold"
+      className="footer footer-center mb-0 p-10 bg-primary text-white  font-bold"
     >
       <div>
         <p>Copyright © 2022 - All right reserved by SAKIB AHMAD</p>
