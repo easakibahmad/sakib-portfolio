@@ -7,14 +7,18 @@ const Navbar = () => {
       data-theme="black"
       className="navbar flex justify-center bg-primary text-primary-content"
     >
-      <Link className="btn btn-ghost normal-case text-xl">Home</Link>
-      <a
-        href="https://drive.google.com/file/d/1FqUQ9Hv0tRzD5XQzuu1D20GyVOD3Kphq/view?usp=sharing"
-        className="btn btn-ghost normal-case text-xl"
-      >
-        Resume
+      <Link to="/" className="btn btn-ghost normal-case text-xl">
+        Home
+      </Link>
+      <a href="#projects" className="btn btn-ghost normal-case text-xl">
+        Projects
       </a>
-      <Link className="btn btn-ghost normal-case text-xl">Contact</Link>
+      <a href="#about" className="btn btn-ghost normal-case text-xl">
+        About Me
+      </a>
+      <a href="#contact" className="btn btn-ghost normal-case text-xl">
+        Contact
+      </a>
     </div>
   );
 };
