@@ -14,8 +14,9 @@ const BookDetail = ({ item }) => {
         <img className="h-full md:block hidden" src={img1} alt="" />
         <img className="h-full md:block hidden" src={img3} alt="" />
       </div>
-      <h1 className="text-2xl pt-12 mb-3 text-center">About This Project</h1>
-      <div className="w-96 mx-auto">
+      <h1 className="text-2xl text-center pt-12 mb-3 ">About This Project</h1>
+
+      <div className="md:w-2/5 w-full mx-auto">
         {about.map((item) => (
           <li>{item}</li>
         ))}
@@ -23,7 +24,7 @@ const BookDetail = ({ item }) => {
       <div className="flex justify-center gap-4 pt-8 items-center">
         <div>
           <a href={client} className="text-success">
-            <span className="flex items-center gap-2 md:text-xl text-md">
+            <span className="flex items-center gap-2 md:text-xl text-sm">
               <BsGithub></BsGithub> CLient Side
             </span>
           </a>
@@ -31,13 +32,13 @@ const BookDetail = ({ item }) => {
         |
         <div>
           <a href={server} className="text-success">
-            <span className="flex items-center gap-2 md:text-xl text-md">
+            <span className="flex items-center gap-2 md:text-xl text-sm">
               <BsGithub></BsGithub> Server Side
             </span>
           </a>
         </div>
         |
-        <div className="md:text-xl text-md">
+        <div className="md:text-xl text-sm">
           <a href={liveServer} className="text-success">
             Live Website
           </a>
