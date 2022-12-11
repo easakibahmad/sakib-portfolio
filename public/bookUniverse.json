@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Book Universe",
+    "about": [
+      "Sellers can add and resell old or lightly used books",
+      "Users can explore books as per their expectations",
+      "Can make purchase",
+      "The admin section is designed to maintain users",
+      "Also admin can maintain sellers activities in the database"
+    ],
+    "client": "https://github.com/easakibahmad/bookUniverse",
+    "server": "https://github.com/easakibahmad/bookUniverseServer",
+    "liveServer": "https://book-universe-63ca2.web.app/",
+    "img1": "https://i.ibb.co/QMJHQsL/Selection-007.png",
+    "img2": "https://i.ibb.co/7tyhHqD/Selection-008.png",
+    "img3": "https://i.ibb.co/54RW67y/Selection-009.png",
+    "img4":"https://i.ibb.co/jr4Yp0S/book.png"
+  }
+]

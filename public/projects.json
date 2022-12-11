@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Book Universe",
+    "shortDescription": "Using ReactJS, NodeJS, MongoDB and other relevant technologies for web development, I built this site to sell used books.",
+    "navigationPath": "bookUniverse",
+    "img": "https://i.ibb.co/YN95Zqx/book.png"
+  },
+  {
+    "id": 2,
+    "name": "The Adventurer",
+    "shortDescription": "I built this simple site using ReactJS to give travelers a basic idea of the place before their trip.",
+    "navigationPath": "adventurer",
+    "img": "https://i.ibb.co/hCkzMyM/adventurer.png"
+  },
+  {
+    "id": 3,
+    "name": "Portable Learning",
+    "shortDescription": "Online based platform where I have shown some online courses and students can navigate the course as per their choice. Certain courses can be shown on separate routes if desired",
+    "navigationPath": "portable",
+    "img": "https://i.ibb.co/JmwQ36z/portable.png"
+  }
+]

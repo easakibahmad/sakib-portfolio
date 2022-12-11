@@ -34,7 +34,7 @@ const Contact = () => {
     <div style={{ fontFamily: "Montserrat" }} id="contact" data-theme="black">
       <h1 className="text-2xl text-center pt-12">Get In Touch</h1>
       <form
-        className=" grid grid-cols-1 w-96 mx-auto gap-6 py-12"
+        className=" grid grid-cols-1 sm:w-96 w-80 mx-auto gap-6 py-12"
         onSubmit={onSubmit}
       >
         <input

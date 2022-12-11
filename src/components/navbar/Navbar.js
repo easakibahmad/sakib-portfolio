@@ -13,15 +13,19 @@ const Navbar = () => {
         <Link to="/" className="btn btn-ghost normal-case text-xl">
           Home
         </Link>
-        <a href="#projects" className="btn btn-ghost normal-case text-xl">
+        <Link to="/projects" className="btn btn-ghost normal-case text-xl">
           Projects
-        </a>
-        <a href="#about" className="btn btn-ghost normal-case text-xl">
+        </Link>
+
+        <Link to="/about" className="btn btn-ghost normal-case text-xl">
           About Me
-        </a>
-        <a href="#contact" className="btn btn-ghost normal-case text-xl">
+        </Link>
+        <Link to="/contact" className="btn btn-ghost normal-case text-xl">
           Contact
-        </a>
+        </Link>
+        <Link to="/blogs" className="btn btn-ghost normal-case text-xl">
+          Blogs
+        </Link>
       </div>
 
       <div class="dropdown md:hidden rounded">
@@ -37,15 +41,19 @@ const Navbar = () => {
           <Link to="/" className="btn btn-ghost normal-case text-xl">
             Home
           </Link>
-          <a href="#projects" className="btn btn-ghost normal-case text-xl">
+          <Link to="/projects" className="btn btn-ghost normal-case text-xl">
             Projects
-          </a>
-          <a href="#about" className="btn btn-ghost normal-case text-xl">
+          </Link>
+
+          <Link to="/about" className="btn btn-ghost normal-case text-xl">
             About Me
-          </a>
-          <a href="#contact" className="btn btn-ghost normal-case text-xl">
+          </Link>
+          <Link to="/contact" className="btn btn-ghost normal-case text-xl">
             Contact
-          </a>
+          </Link>
+          <Link to="/blogs" className="btn btn-ghost normal-case text-xl">
+            Blogs
+          </Link>
         </ul>
       </div>
     </div>
