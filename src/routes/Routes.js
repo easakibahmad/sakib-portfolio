@@ -43,10 +43,12 @@ export const router = createBrowserRouter([
       {
         path: "/adventurer",
         element: <Adventurer></Adventurer>,
+        loader: () => fetch("adventurer.json"),
       },
       {
         path: "/portable",
         element: <Portable></Portable>,
+        loader: () => fetch("portable.json"),
       },
     ],
   },

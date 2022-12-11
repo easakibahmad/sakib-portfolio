@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "The Adventurer",
+    "about": [
+      "Users can add information about visiting places",
+      "Also can give reviews of places",
+      "Users can edit and delete his own reviews",
+      "Users can view other reviews by corresponding places",
+      "Users can add a place if they want"
+    ],
+    "client": "https://github.com/easakibahmad/theAdventurer",
+    "server": "https://github.com/easakibahmad/theAdventurerServer",
+    "liveServer": "https://the-adventurer-a6e17.firebaseapp.com/",
+    "img1": "https://i.ibb.co/1sYrxfF/Selection-010.png",
+    "img2": "https://i.ibb.co/44Rfkjz/Selection-011.png",
+    "img3": "https://i.ibb.co/ChNmb4B/Selection-013.png",
+    "img4":"https://i.ibb.co/GdKGL4C/Selection-012.png"
+  }
+]
