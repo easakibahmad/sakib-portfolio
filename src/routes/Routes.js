@@ -8,6 +8,8 @@ import Contact from "../components/contact/Contact";
 import Portable from "../pages/portable/Portable";
 import Adventurer from "../pages/adventurer/Adventurer";
 import Book from "../pages/book/Book";
+import CseduMain from "../pages/csedu/CseduMain";
+import MediMain from "../pages/MediMain/MediMain";
 
 export const router = createBrowserRouter([
   {
@@ -49,6 +51,16 @@ export const router = createBrowserRouter([
         path: "/portable",
         element: <Portable></Portable>,
         loader: () => fetch("portable.json"),
+      },
+      {
+        path: "/cseduthesis",
+        element: <CseduMain></CseduMain>,
+        loader: () => fetch("cseduthesis.json"),
+      },
+      {
+        path: "/mediservice",
+        element: <MediMain></MediMain>,
+        loader: () => fetch("mediservice.json"),
       },
     ],
   },

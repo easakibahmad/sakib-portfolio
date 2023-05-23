@@ -1,8 +1,22 @@
 [
   {
+    "id": 4,
+    "name": "CSEDU Thesis Repository",
+    "shortDescription": "Using ReactJS, NodeJS, MongoDB, ExpressJS and other relevant technologies for web development, I built this site to provide thesis papers management.",
+    "navigationPath": "cseduthesis",
+    "img": "https://i.ibb.co/XLVrVFy/Selection-011.png"
+  },
+  {
+    "id": 5,
+    "name": "Medi Service",
+    "shortDescription": "Using ReactJS, NodeJS, MongoDB, ExpressJS and other relevant technologies for web development, I built this site to provide medical services.",
+    "navigationPath": "mediservice",
+    "img": "https://i.ibb.co/DRJz4j9/Selection-015.png"
+  },
+  {
     "id": 1,
     "name": "Book Universe",
-    "shortDescription": "Using ReactJS, NodeJS, MongoDB and other relevant technologies for web development, I built this site to sell used books.",
+    "shortDescription": "Using ReactJS, NodeJS, MongoDB, ExpressJS and other relevant technologies for web development, I built this site to sell used books.",
     "navigationPath": "bookUniverse",
     "img": "https://i.ibb.co/YN95Zqx/book.png"
   },
